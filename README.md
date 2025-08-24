@@ -27,7 +27,7 @@
 **UpCord-CLI** is a minimalistic and asynchronous command-line wrapper for the Discord API.  
 Built for developers and power users who want to automate downloading the latest version of Discord across platforms with ease.
 <p align="left">
-  <img src="https://github.com/denoyey/UpCord-CLI/blob/b00d2bb1b9c9cd33a0335b682c27ff0fe8925566/img/Review-Tools.png" alt="UpCord CLI Screenshot"/>
+  <img src="https://github.com/denoyey/UpCord-CLI/blob/main/img/Review-Tools.png" alt="UpCord CLI Screenshot"/>
 </p>
 
 ## 🐍 Python Required
